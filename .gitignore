@@ -1,0 +1,15 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+
+# SQLite database
+vms.db
+
+# VS Code
+.vscode/
+*.code-workspace
