@@ -1,4 +1,4 @@
-﻿# keep these as LF so pre-commit / JSON parsers don't choke
+﻿# keep these LF
 *.yml  text eol=lf
 *.yaml text eol=lf
 .secrets.baseline text eol=lf
