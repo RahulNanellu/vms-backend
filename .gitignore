@@ -13,3 +13,9 @@ vms.db
 # VS Code
 .vscode/
 *.code-workspace
+
+.env
+
+apps/core/
+vms-monorepo/backend/
+replacements.txt
