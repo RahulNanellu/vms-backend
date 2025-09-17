@@ -1,9 +1,10 @@
+﻿import os
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     ENV: str = "dev"
     POSTGRES_USER: str = "vms"
-    POSTGRES_PASSWORD: str = "vms123"
+    POSTGRES_PASSWORD: str = os.environ.get("POSTGRES_PASSWORD","")
     POSTGRES_DB: str = "vmsdb"
     POSTGRES_HOST: str = "localhost"
     POSTGRES_PORT: int = 5432
@@ -26,3 +27,4 @@ class Settings(BaseSettings):
         env_file = ".env"
 
 settings = Settings()
+
