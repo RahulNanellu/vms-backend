@@ -1,3 +1,21 @@
+# Visitor Management System (VMS)
+
+Backend system for managing visitor access, tracking, and workflows.
+
+## Features
+- Visitor logging and tracking
+- API-based backend (FastAPI)
+- Scalable architecture
+
+## Tech Stack
+- FastAPI
+- PostgreSQL
+- SQLAlchemy
+
+## Purpose
+To build a scalable and modern visitor management solution.
+
+
 # VMS + QuickTalk Monorepo
 
 Merged Visitor Management System (VMS) with:
